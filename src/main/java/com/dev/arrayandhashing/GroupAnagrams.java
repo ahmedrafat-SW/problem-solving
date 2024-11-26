@@ -25,6 +25,8 @@ public class GroupAnagrams {
         for (String string : strs) {
             char [] str = string.toCharArray();
            for (char c : str){
+               int i = c - 'a';
+               System.out.println((int)c + " - " + (int) 'a' + " = " + i);
                frequency[c - 'a'] ++;
            }
            String key = String.valueOf(frequency);
