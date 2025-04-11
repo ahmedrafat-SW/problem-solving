@@ -8,8 +8,8 @@ public class MessageDecrypter {
         String convertedStr = str.replaceAll("([a-zA-Z])\\d", "$1$1");
         System.out.println(convertedStr); // Output: helllo
 
-//        String decryptedMessage = decryptMessage(encryptedMessage);
-//        System.out.println(decryptedMessage); // Output: hello world
+        String decryptedMessage = decryptMessage(encryptedMessage);
+        System.out.println(decryptedMessage); // Output: hello world
 
     }
 
